@@ -17,6 +17,7 @@ body {
 .menu-nav ul li a {
     text-decoration: none;
     list-style: none;
+    position: relative;
 }
 
 .menu-nav ul {
@@ -32,6 +33,25 @@ body {
 .menu-nav li {
     text-decoration: none;
     list-style: none;
+}
+
+.menu-nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+
+.menu-nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 /* menu-nav__proyectos */
@@ -53,6 +73,10 @@ body {
 .menu-nav__proyectos li {
     text-decoration: none;
     list-style: none;
+}
+
+.menu-nav__proyectos ul li a:hover {
+    text-decoration: underline;
 }
 
 /* estilos header */
@@ -169,6 +193,14 @@ footer {
 
 .h1-proyectos {
     padding-left: 2rem;
+}
+
+.proyectos-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.proyectos-container img:hover {
+    color: rgba(0, 0, 0, 0.151);
 }
 
 /* Proyecto 1 */
