@@ -95,6 +95,16 @@ footer {
     text-align: right;
 }
 
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer li {
+    text-decoration: none;
+    list-style: none;
+}
+
 /* index */
 .main-index {
     position: relative;
@@ -143,7 +153,7 @@ footer {
 
 .servicios-containter img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
@@ -153,7 +163,23 @@ footer {
 }
 
 /* Proyectos */
-.proyectos-container {
+
+.proyectos-container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+.proyectos-caja img {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+/* .proyectos-container {
     margin-top: 2rem;
     display: grid;
     grid-template-rows: repeat(2,1fr);
@@ -162,46 +188,19 @@ footer {
     padding: 2rem;
 }
 
-
 .proyectos-container img {
+    display: grid;
     width: 400px;
     height: 600px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border: 0.5rem;
-}
-
-.proyectos-container ul li a {
-    text-decoration: none;
-    list-style: none;
-}
-
-.proyectos-container ul {
-    text-align: center;
-    padding-top: 0.3rem;
-}
-
-.proyectos-containerul li {
-    display: initial ;
-    margin: 0px 10px;
-}
-
-.proyectos-container li {
-    text-decoration: none;
-    list-style: none;
-}
+} */
 
 .h1-proyectos {
     padding-left: 2rem;
 }
 
-.proyectos-container ul li a:hover {
-    text-decoration: underline;
-}
-
-.proyectos-container img:hover {
-    color: rgba(0, 0, 0, 0.151);
-}
 
 /* Proyecto 1 */
 .h1-proyecto1 {
@@ -214,7 +213,7 @@ footer {
 
 .proyecto1-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
@@ -229,7 +228,7 @@ footer {
 
 .proyecto2-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
@@ -244,7 +243,7 @@ footer {
 
 .proyecto3-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
@@ -259,7 +258,7 @@ footer {
 
 .proyecto4-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
@@ -277,7 +276,7 @@ footer {
 
 .proyecto5-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
@@ -292,7 +291,7 @@ footer {
 
 .proyecto6-container img {
     width: 400px;
-    height: 600px;
+    height: 500px;
     padding: 2rem;
 }
 
