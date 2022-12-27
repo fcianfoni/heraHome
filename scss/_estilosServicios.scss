@@ -1,0 +1,22 @@
+/* Servicios */
+.servicios-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 7rem;
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 2rem;
+    img {
+        width: 400px;
+        height: 500px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+
+.h1-servicios {
+    padding-left: 2rem;
+}

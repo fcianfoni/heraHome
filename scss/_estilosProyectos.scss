@@ -1,0 +1,113 @@
+/* Proyectos */
+
+.proyectos-container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 1rem;
+}
+
+.proyectos-caja img {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.h1-proyectos {
+    padding-left: 2rem;
+}
+
+
+/* Proyecto 1 */
+.h1-proyecto1 {
+    padding-left: 2rem;
+}
+
+.proyecto1-container p {
+    padding-left: 2rem;
+}
+
+.proyecto1-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}
+
+/* Proyecto 2 */
+.h1-proyecto2 {
+    padding-left: 2rem;
+}
+
+.proyecto2-container p {
+    padding-left: 2rem;
+}
+
+.proyecto2-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}
+
+/* Proyecto 3 */
+.h1-proyecto3 {
+    padding-left: 2rem;
+}
+
+.proyecto3-container p {
+    padding-left: 2rem;
+}
+
+.proyecto3-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}
+
+/* Proyecto 4 */
+.h1-proyecto4 {
+    padding-left: 2rem;
+}
+
+.proyecto4-container p {
+    padding-left: 2rem;
+}
+
+.proyecto4-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}
+
+/* Proyecto 5 */
+.h1-proyecto5 {
+    padding-left: 2rem;
+}
+
+.proyecto5-container p {
+    padding-left: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 1340px;
+}
+
+.proyecto5-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}
+
+/* Proyecto 6 */
+.h1-proyecto6 {
+    padding-left: 2rem;
+}
+
+.proyecto6-container p {
+    padding-left: 2rem;
+}
+
+.proyecto6-container img {
+    width: 400px;
+    height: 500px;
+    padding: 2rem;
+}

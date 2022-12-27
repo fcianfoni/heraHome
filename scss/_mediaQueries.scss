@@ -1,0 +1,114 @@
+/* Media Queries */
+@media only screen and (max-width:576px) {
+    /* estilos generales */
+    header {
+        flex-direction: column;
+    }
+    
+    .menu-nav ul {
+        text-align: center;
+    }
+    
+    /* estilos index */
+    
+    .main-index h1 {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        font-size: 3.5rem;
+    }
+    
+    .main-index h2 {
+        position: absolute;
+        top: 45%;
+        left: 17%;
+        font-size: 2rem;
+    }
+    
+    .article-index {
+        text-align: justify;
+        width: 550px;
+    }
+    
+    /* estilos servicios */
+    
+    .servicios-container {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 3rem;
+    }
+    
+    .h1-servicios {
+        padding-top: 1.5rem;
+    }
+    
+    /* estilos proyectos */
+    
+    .h1-proyectos {
+        padding-top: 1.5rem;
+    }
+    
+    .proyectos-container {
+        display: block;
+    }
+    
+    .proyecto1-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    
+    .proyecto2-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    
+    .proyecto3-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    .proyecto4-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    
+    .proyecto5-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    
+    .proyecto6-container p {
+        text-align: justify;
+        width: 400px;
+    }
+    
+    /* estilos nosotras */
+    
+    .nosotras-container {
+        flex-direction: column;
+    }
+    
+    .h1-nosotras {
+        padding-top: 1.5rem;
+    }
+    
+    .nosotras-container img {
+        padding-right: 3rem;
+        width: 400px;
+        height: 400px;
+    }
+    
+    /* estilos contacto */
+    .h1-contacto {
+        padding-top: 1.5rem;
+    }
+    .contacto-container {
+        flex-direction: column;
+    }
+    
+    .contacto-container img {
+        padding-right: 3rem;
+        width: 400px;
+        height: 400px;
+    }
+    
+    }

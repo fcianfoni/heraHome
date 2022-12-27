@@ -1,0 +1,30 @@
+/* index */
+
+.main-index {
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    h1 {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        font-size: 5rem;  
+    }
+    h2 {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        font-size: 4rem; 
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.article-index{
+    padding: 1rem;
+    margin: 0.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
