@@ -1,0 +1,64 @@
+/* estilos generales */
+/* formateo todo a 0 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* aplico color de fondo a la página y fuente */
+body {
+    background-color: $colorPrincipal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos menus navegación*/
+
+/* menu-nav */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+/* menu-nav__proyectos */
+
+.menu-nav__proyectos ul {
+    text-align: center;
+    padding-top: 0.3rem;
+        li {
+            display: initial ;
+            margin: 0px 10px; 
+            text-decoration: none;
+            list-style: none;
+            a {
+                color: black;
+                text-decoration: none;
+                list-style: none; 
+            }
+        }
+}
+
+/* estilos header */
+header {
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+}
+
+/* estilos footer */
+footer {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+footer img {
+        width: 50px;
+        height: 50px; 
+    }
+footer li {
+        text-decoration: none;
+        list-style: none;
+    }
